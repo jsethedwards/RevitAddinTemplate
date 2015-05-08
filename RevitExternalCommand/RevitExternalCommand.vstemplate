@@ -1,0 +1,12 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <Name>Revit ExternalCommand</Name>
+    <Description>Revit ExternalCommand template for a Revit add-in</Description>
+	<Icon>TemplateIcon.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>Command</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+	<ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">RevitExternalCommand.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

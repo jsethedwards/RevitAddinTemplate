@@ -1,0 +1,12 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <Name>Revit ExternalApplication</Name>
+    <Description>Revit ExternalApplication template for a Revit add-in</Description>
+    <Icon>TemplateIcon.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>MainApp</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">RevitExternalApplication.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
