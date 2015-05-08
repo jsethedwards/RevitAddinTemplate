@@ -8,7 +8,7 @@ Open <b>Command Prompt</b> and type cmd below:
 $ git clone https://github.com/yiskang/RevitAddinTemplate.git "%USERPROFILE%\Documents\Visual Studio 2013\Templates\ItemTemplates\Visual C#\Revit"
 ```
 
-In PowerShell
+In <b>PowerShell</b>:
 ```
 $ git clone https://github.com/yiskang/RevitAddinTemplate.git "$Env:USERPROFILE\Documents\Visual Studio 2013\Templates\ItemTemplates\Visual C#\Revit"
 ```
